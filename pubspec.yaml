@@ -1,0 +1,37 @@
+name: flutter_boilerplate
+description: A Flutter boilerplate.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  bloc: ^7.0.0
+  cupertino_icons: ^1.0.2
+  either_dart: ^0.1.0
+  equatable: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+  formz: ^0.4.0
+  get_it: ^7.2.0
+  json_annotation: ^4.0.0
+  my_authentication:
+    path: ./packages/authentication
+  my_cache:
+    path: ./packages/cache
+  my_validator:
+    path: ./packages/validator
+  very_good_analysis: ^2.3.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.4
+
+flutter:
+  uses-material-design: true

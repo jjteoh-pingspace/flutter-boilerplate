@@ -1,0 +1,13 @@
+name: my_validator
+description: Dart package which provides validators.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.4
+  very_good_analysis: ^2.3.0
